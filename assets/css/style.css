@@ -1,0 +1,74 @@
+html body{
+	font-family: 'Playfair Display', serif;
+}
+
+img {
+	width: 350px;
+	position: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+li {
+	padding: 5px;
+	list-style-type: none;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#container {
+	padding-top: 5px;
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 40px;
+}
+
+h1, p{
+	padding: 25px;
+    text-align: center;
+}
+
+#main {
+	font-family: 'Fresca', sans-serif;
+	color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 25px;
+	background-color: #D17777;
+	padding: 20px;
+	width: 400px;
+	margin: auto;
+	
+}
+
+#questions {
+	padding-bottom: 15px;
+}
+
+#choices {
+	margin-top: 10px;
+}
+
+
+#nextBtn, #backBtn, #submit{
+	font-family: 'Playfair Display', serif;
+	display: inline-block;
+	color: black;
+	background-color: lightgrey;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 10px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	border-bottom-width: 3px;
+}
